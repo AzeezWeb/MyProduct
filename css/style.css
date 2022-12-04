@@ -333,9 +333,7 @@ header{
 
 
 /* process  */
-#process {
-  padding-top: 100px;
-}
+
 .bg__img-process {
   margin-bottom: -200px;
   opacity: 0.1;
@@ -499,6 +497,19 @@ header{
   color: #fff;
 }
 
+.table__box .section__title {
+  color: #22343d;
+}
+.table__box:hover .section__title {
+  color: #fff;
+}
+.table__box  .description{
+  color: #22343d;
+}
+.table__box:hover .description {
+  color: #fff;
+}
+
 /* clients */
 
 #clients h2 {
@@ -507,7 +518,7 @@ header{
   margin-bottom: 15px;
 }
 
-#clients p {
+#clients .row.around p {
   color: #22343d;
 }
 
@@ -666,3 +677,7 @@ footer  p {
     padding-top: 25px;
   }
 }
+
+
+
+
